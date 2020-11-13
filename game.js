@@ -323,6 +323,7 @@
                 }
                 if (body[0].intersects(wall[i])) {
                     aDie.play();
+                    addHighscore(score);
                     gameover = true;
                     pause = true;
                 }
